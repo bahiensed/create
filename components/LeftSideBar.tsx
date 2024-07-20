@@ -37,7 +37,7 @@ const LeftSideBar = () => {
               key={label}>
           
               <Image alt={label} src={imgURL} width={24} height={24}/>
-              <p>{route}</p>
+              <p>{label}</p>
           
             </Link>
           )
