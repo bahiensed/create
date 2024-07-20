@@ -5,8 +5,9 @@ import '@/styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Free Speech',
-  description: '',
+  title: 'Speechful',
+  description: 'Podcast platform for creative and free speech',
+  icons: '/icons/logo.svg',
 };
 
 export default function RootLayout({
