@@ -7,7 +7,7 @@ import '@/styles/globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Speechful',
+  title: 'Speechful Club',
   description: 'Podcast platform for creative and free speech',
   icons: '/icons/logo.svg',
 };
