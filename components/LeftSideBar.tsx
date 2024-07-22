@@ -16,7 +16,7 @@ const LeftSideBar = () => {
       <nav className='flex flex-col gap-6'>
         <Link className='flex cursor-pointer items-center gap-3 pb-10 max-lg:justify-center' href={'/'}>
           <Image alt='logo' src='/icons/logo.svg' width={23} height={27}/>
-          <h1 className='text-24 font-extrabold text-white max-lg:hidden'>Speechful</h1>
+          <h1 className='text-20 font-extrabold text-white max-lg:hidden'>Speechful Club</h1>
         </Link>
 
         {LeftSideBarLinks.map(({ imgURL, route, label }) => {
