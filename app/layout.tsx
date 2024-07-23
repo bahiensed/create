@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
-import { ConvexClientProvider } from "@/providers/ConvexClientProvider";
+import ConvexClerkProvider from "@/providers/ConvexClerkProvider";
 
 import '@/styles/globals.css';
 
@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body className={inter.className}>
-        <ConvexClientProvider>
+        <ConvexClerkProvider>
           {children}
-        </ConvexClientProvider>
+        </ConvexClerkProvider>
       </body>
     </html>
   );
